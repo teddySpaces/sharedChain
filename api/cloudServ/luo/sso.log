@@ -1,0 +1,17 @@
+[2019/03/17 21:25:31 PDT] [INFO] 从 '/root/Desktop/sign-in-on_dev/src/github.com/teddy/sign-in-on/i18n/zh-CN.json' 加载 'zh-CN' 系统翻译信息
+[2019/03/17 21:25:31 PDT] [INFO] 当前版本是 4.0.0 (dev/Mon Mar 18 04:25:11 UTC 2019/8cea731153f33f069f25e373b55c14d415f5aed7)
+[2019/03/17 21:25:31 PDT] [INFO] 当前工作目录是 /root/Desktop/sign-in-on_dev/src/github.com/teddy/sign-in-on
+[2019/03/17 21:25:31 PDT] [INFO] 从 /root/Desktop/sign-in-on_dev/src/github.com/teddy/sign-in-on/config/config.json 加载配置文件
+[2019/03/17 21:25:31 PDT] [INFO] 服务正在初始化...
+[2019/03/17 21:25:31 PDT] [INFO] Pinging SQL master database
+[2019/03/17 21:25:31 PDT] [INFO] 启动服务...
+[2019/03/17 21:25:31 PDT] [INFO] 服务正在监听 :9966
+[2019/03/17 21:49:12 PDT] [INFO] 从 '/root/Desktop/sign-in-on_dev/src/github.com/teddy/sign-in-on/i18n/zh-CN.json' 加载 'zh-CN' 系统翻译信息
+[2019/03/17 21:49:12 PDT] [INFO] 当前版本是 4.0.0 (dev/Mon Mar 18 04:25:11 UTC 2019/8cea731153f33f069f25e373b55c14d415f5aed7)
+[2019/03/17 21:49:12 PDT] [INFO] 当前工作目录是 /root/Desktop/sign-in-on_dev/src/github.com/teddy/sign-in-on
+[2019/03/17 21:49:12 PDT] [INFO] 从 /root/Desktop/sign-in-on_dev/src/github.com/teddy/sign-in-on/config/config.json 加载配置文件
+[2019/03/17 21:49:12 PDT] [INFO] 服务正在初始化...
+[2019/03/17 21:49:12 PDT] [INFO] Pinging SQL master database
+[2019/03/17 21:49:12 PDT] [INFO] 启动服务...
+[2019/03/17 21:49:12 PDT] [INFO] 服务正在监听 :9966
+[2019/03/17 21:49:58 PDT] [INFO] api.server.stop_server.stopping.info

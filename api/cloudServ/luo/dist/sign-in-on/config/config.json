@@ -1,0 +1,118 @@
+{
+    "ServiceSettings": {
+        "SiteName": "",
+        "SiteURL": "http://192.168.64.128",
+        "ListenAddress": ":9966",
+        "ConnectionSecurity": "",
+        "TLSCertFile": "",
+        "TLSKeyFile": "",
+        "Forward80To443": false,
+        "ReadTimeout": 300,
+        "WriteTimeout": 300,
+        "MaximumLoginAttempts": 10,
+        "EnableDeveloper": false,
+        "AllowCorsFrom": "",
+        "SessionLengthWebInDays": 30,
+        "SessionCacheInMinutes": 10,
+        "WebserverMode": "gzip"
+    },
+    "SqlSettings": {
+        "DriverName": "mysql",
+        "DataSource": "sbchain:423785@tcp(127.0.0.1:3306)/db0?charset=utf8mb4,utf8\u0026readTimeout=30s\u0026writeTimeout=30s",
+        "DataSourceReplicas": [],
+        "DataSourceSearchReplicas": [],
+        "MaxIdleConns": 20,
+        "MaxOpenConns": 300,
+        "Trace": false,
+        "AtRestEncryptKey": "",
+        "QueryTimeout": 30
+    },
+    "FileSettings": {
+        "EnableFileAttachments": true,
+        "MaxFileSize": 52428800,
+        "InitialFont": "init.ttf",
+        "Directory": "./data/"
+    },   
+    "JWTSettings":{
+    	"Secret":"1kfjdsljfkdoja3456etr7gr890",
+	   "Issuer":"",
+	   "ExpireTimeLengthInDays": 20
+    },
+    "LogSettings": {
+        "EnableConsole": true,
+        "ConsoleLevel": "DEBUG",
+        "EnableFile": true,
+        "FileLevel": "INFO",
+        "FileFormat": "",
+        "FileLocation": ""
+    },
+    "EnableSignInWithMobile": false,
+    "PasswordSettings": {
+        "MinimumLength": 6,
+        "Lowercase": true,
+        "Number": false,
+        "Uppercase": false,
+        "Symbol": false
+    },
+    "SmsCodeSettings": {
+        "Enable": "false",
+        "Provider": "",
+        "GatewayUrl": "http://dcom/",
+        "AccessKeyId": "",
+        "AccessKeySecret": "",
+        "SignName": "",
+        "TemplateCode": ""
+    },
+    "EmailSettings": {
+        "EnableSignUpWithEmail": true,
+        "EnableSignInWithEmail": true,
+        "EnableSignInWithUsername": true,
+        "FeedbackName": "欢迎注册本系统",
+        "FeedbackEmail": "guet_dev@163.com",
+        "FeedbackOrganization": "GUET",
+        "EnableSMTPAuth": true,
+        "SMTPUsername": "guet_dev@163.com",
+        "SMTPPassword": "fasd120145kqqo",
+        "SMTPServer": "smtp.163.com",
+        "SMTPPort": "465",
+        "ConnectionSecurity": "TLS",
+        "SkipServerCertificateVerification": true        
+    },
+    "RateLimitSettings": {
+        "Enable": false,
+        "PerSec": 10,
+        "MaxBurst": 100,
+        "MemoryStoreSize": 10000,
+        "VaryByRemoteAddr": true,
+        "VaryByHeader": ""
+    },
+    "PrivacySettings": {
+        "ShowEmailAddress": true,
+        "ShowFullName": true
+    },
+    "WeixinSettings": {
+        "Enable": false,
+        "Secret": "",
+        "Id": "",
+        "Scope": "snsapi_login",
+        "AuthEndpoint": "https://open.weixin.qq.com/connect/qrconnect",
+        "TokenEndpoint": "https://api.weixin.qq.com/sns/oauth2/access_token",
+        "UserApiEndpoint": "https://api.weixin.qq.com/sns/userinfo"
+    },
+    "SupportSettings": {
+        "TermsOfServiceLink": "www.terms.com",
+        "PrivacyPolicyLink": "www.privacy.com",
+        "AboutLink": "www.about.com",
+        "HelpLink": "www.help.com",
+        "ReportAProblemLink": "www.report.com",
+        "AdministratorsGuideLink": "www.guid_link.com",
+        "TroubleshootingForumLink": "www.troubleshot.com",
+        "CommercialSupportLink": "www.guet.edu.cn",
+        "SupportEmail": "dcl_gx@163.com"
+    },    
+    "LocalizationSettings": {
+        "DefaultServerLocale": "zh-CN",
+        "DefaultClientLocale": "zh-CN",
+        "AvailableLocales": "zh-CN"
+    }
+}
